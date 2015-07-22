@@ -1,0 +1,55 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1265\cocoasubrtf210
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset0 Menlo-Regular;\f2\fnil\fcharset0 Menlo-Italic;
+}
+{\colortbl;\red255\green255\blue255;\red204\green120\blue50;\red43\green43\blue43;\red255\green198\blue109;
+\red169\green183\blue198;\red128\green128\blue128;\red152\green118\blue170;\red232\green191\blue106;\red186\green186\blue186;
+\red165\green194\blue97;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural
+
+\f0\fs24 \cf0 Copy paste the action icon into drawable.\
+\
+Go to all your Java files that you want to show the action bar, and copy paste this code under the onCreate method.\
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
+
+\f1 \cf2 \cb3 public void \cf4 onCreate\cf5 (Bundle savedInstanceState) \{\uc0\u8232    \cf2 super\cf5 .onCreate(savedInstanceState)\cf2 ;\uc0\u8232 \u8232    \cf6 //icon\uc0\u8232    \cf5 getActionBar().setDisplayShowHomeEnabled(\cf2 true\cf5 )\cf2 ;\uc0\u8232    \cf5 getActionBar().setIcon(R.drawable.
+\f2\i \cf7 actionicon
+\f1\i0 \cf5 )\cf2 ;\
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural
+
+\f0 \cf0 \cb1 Don\'92t copy the public void, thats just for show. copy from //icon down.\
+\
+Then go down to the values->colors.xml; if you don\'92t have the colors.xml file, create one by right clicking values folder and clicking new->xml->values.xml, change values in the drop down menu to colors and name the file colors.\
+\
+in the colors.xml file copy paste this code.\
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
+
+\f1 \cf8 \cb3 <resources>\uc0\u8232    <color \cf9 name=\cf10 "yellow"\cf8 >\cf5 \cb3 #fffada2f\cf8 \cb3 </color>\uc0\u8232     \u8232    <color \cf9 name=\cf10 "black"\cf8 >\cf5 \cb3 #000\cf8 \cb3 </color>\uc0\u8232     \u8232 </resources>\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural
+
+\f0 \cf0 \cb1 Then go down to the styles.xml under values; if you don\'92t have the styles.xml file, create one by right clicking values folder and clicking new->xml->values.xml, change values in the drop down menu to styles and name the file colors.\
+\
+in styles.xml file copy paste this code.\
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
+
+\f1 \cf8 \cb3 <resources \cf9 xmlns:\cf7 \cb3 android\cf9 \cb3 =\cf10 "http://schemas.android.com/apk/res/android"\cf8 >\uc0\u8232 \u8232     
+\f2\i \cf6 \cb3 <!-- Base application theme. -->\uc0\u8232     
+\f1\i0 \cf8 \cb3 <style \cf9 name=\cf10 "AppTheme"\uc0\u8232         \cf9 parent=\cf10 "Theme.AppCompat.Light.DarkActionBar"\cf8 >\uc0\u8232      <item \cf9 name=\cf10 "android:actionBarStyle"\cf8 >\cf5 \cb3 @style/MyActionBar\cf8 \cb3 </item>\uc0\u8232 \u8232         
+\f2\i \cf6 \cb3 <!-- Support library compatibility -->\uc0\u8232         
+\f1\i0 \cf8 \cb3 <item \cf9 name=\cf10 "actionBarStyle"\cf8 >\cf5 \cb3 @style/MyActionBar\cf8 \cb3 </item>\uc0\u8232  </style>\u8232 \u8232     
+\f2\i \cf6 \cb3 <!-- ActionBar styles -->\uc0\u8232    
+\f1\i0 \cf8 \cb3 <style \cf9 name=\cf10 "MyActionBar"\uc0\u8232     \cf9 parent=\cf10 "@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse"\cf8 >\uc0\u8232   <item \cf9 name=\cf10 "android:background"\cf8 >\cf5 \cb3 @color/yellow\cf8 \cb3 </item>\uc0\u8232        <item \cf9 name=\cf10 "android:titleTextStyle"\cf8 >\cf5 \cb3 @style/MyActionBarTitleText\cf8 \cb3 </item>\uc0\u8232        
+\f2\i \cf6 \cb3 <!-- Support library compatibility -->\uc0\u8232        
+\f1\i0 \cf8 \cb3 <item \cf9 name=\cf10 "background"\cf8 >\cf5 \cb3 @color/yellow\cf8 \cb3 </item>\uc0\u8232        <item \cf9 name=\cf10 "titleTextStyle"\cf8 >\cf5 \cb3 @style/MyActionBarTitleText\cf8 \cb3 </item>\uc0\u8232 \u8232 </style>\u8232     
+\f2\i \cf6 \cb3 <!-- ActionBar title text -->\uc0\u8232     
+\f1\i0 \cf8 \cb3 <style \cf9 name=\cf10 "MyActionBarTitleText"\uc0\u8232         \cf9 parent=\cf10 "@style/TextAppearance.AppCompat.Widget.ActionBar.Title"\cf8 >\uc0\u8232         <item \cf9 name=\cf10 "android:textColor"\cf8 >\cf5 \cb3 @color/black\cf8 \cb3 </item>\uc0\u8232         
+\f2\i \cf6 \cb3 <!-- The textColor property is backward compatible with the Support Library -->\uc0\u8232     
+\f1\i0 \cf8 \cb3 </style>\uc0\u8232 \u8232 </resources>\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural
+
+\f0 \cf0 \cb1 if you come across any errors after this step, call me because those graddle errors are pretty pesky. ill get it fixed.\
+}
