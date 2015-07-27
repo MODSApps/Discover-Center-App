@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/osmarjuniorcr/Desktop/Museum Ft lauderdale/MODSExplorer/app/libs/Ketai.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c6c4a2fc914ef72fc2a75ee1c3e13286b4520acb">
+        <dex dex="/Users/osmarjuniorcr/Desktop/Museum Ft lauderdale/MODSExplorer/app/build/intermediates/pre-dexed/debug/Ketai-dd2381b40d465a83389a99dc75c1fe7beb5fc050.jar" />
+    </item>
+    <item
+        jar="/Users/osmarjuniorcr/Desktop/Museum Ft lauderdale/MODSExplorer/app/libs/processing-core.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e4708b5eeaa3a26a59bacba5ec31f4c0ab9689ca">
+        <dex dex="/Users/osmarjuniorcr/Desktop/Museum Ft lauderdale/MODSExplorer/app/build/intermediates/pre-dexed/debug/processing-core-09df085c1c23e979cca91116c5fae4c5fc044b70.jar" />
+    </item>
+    <item
+        jar="/Users/osmarjuniorcr/Library/Android/sdk/extras/android/m2repository/com/android/support/support-v4/19.1.0/support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="/Users/osmarjuniorcr/Desktop/Museum Ft lauderdale/MODSExplorer/app/build/intermediates/pre-dexed/debug/support-v4-19.1.0-8e69d297a7a1448a5f7c5dea79c4f71ecbf2b623.jar" />
+    </item>
+    <item
+        jar="/Users/osmarjuniorcr/Desktop/Museum Ft lauderdale/MODSExplorer/app/libs/Parse.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="3d645417e7780d44f32e29a3ec6b729b75aef26c">
+        <dex dex="/Users/osmarjuniorcr/Desktop/Museum Ft lauderdale/MODSExplorer/app/build/intermediates/pre-dexed/debug/Parse-cece09d857f80d8a4c6ba42612bf49d3d61f781d.jar" />
+    </item>
+    <item
+        jar="/Users/osmarjuniorcr/Desktop/Museum Ft lauderdale/MODSExplorer/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="3499ceba05ca1f6037c6a2fad73df8f636224a28">
+        <dex dex="/Users/osmarjuniorcr/Desktop/Museum Ft lauderdale/MODSExplorer/app/build/intermediates/pre-dexed/debug/classes-198f9e4d98db377bda7a04e819cb48c78742e40e.jar" />
+    </item>
+
+</items>
