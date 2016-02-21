@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference
+        android:key="music"
+        android:title="Map goes her"
+        android:summary="really nice"
+        android:defaultValue="true"
+        android:id="@+id/settings" />
+    <CheckBoxPreference
+        android:key="hints"
+        android:title="I like the map there"
+        android:summary="but we're lonely"
+        android:defaultValue="true" />
+
+</PreferenceScreen>
